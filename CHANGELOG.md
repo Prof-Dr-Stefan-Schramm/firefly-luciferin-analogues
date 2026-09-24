@@ -8,6 +8,7 @@ corrections that do not add records.
 
 ## [1.0.1] (2026-09-24)
 
+- Archived on Zenodo: version DOI https://doi.org/10.5281/zenodo.22933655; concept DOI https://doi.org/10.5281/zenodo.22933436
 - The analysis figures are no longer distributed with the dataset; they appear
   in the book chapter. Data files are unchanged.
 - README: noted the use of AI assistance in compiling the dataset.

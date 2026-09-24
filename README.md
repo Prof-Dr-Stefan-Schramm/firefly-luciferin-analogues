@@ -20,9 +20,10 @@ full underlying dataset, released so that others can find, reuse and cite it.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22933436.svg)](https://doi.org/10.5281/zenodo.22933436)
 
-This concept DOI always resolves to the newest version. Each version also has
-its own DOI, listed on the Zenodo record. A machine-readable citation is in
-`CITATION.cff`.
+This concept DOI always resolves to the newest version. To cite exactly
+version 1.0.1, use its version DOI,
+[10.5281/zenodo.22933655](https://doi.org/10.5281/zenodo.22933655). A
+machine-readable citation is in `CITATION.cff`.
 
 ## What is in here
 
