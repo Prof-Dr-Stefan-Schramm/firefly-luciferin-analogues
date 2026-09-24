@@ -1,0 +1,274 @@
+{
+ "totals": {
+  "compounds_in_scope": 195,
+  "measurements": 2103,
+  "references": 77,
+  "references_used_for_a_value": 71,
+  "structures_with_smiles": 193,
+  "bl_max_values": 579,
+  "bl_max_wildtype_values (heuristic split)": 279,
+  "compounds_with_any_bl_max": 146,
+  "racemates": 16
+ },
+ "classes": [
+  {
+   "class_key": "amino",
+   "class_label": "6'-Aminoluciferins, acyclic N-alkyl and pendant amine",
+   "n_compounds": 31,
+   "n_measurements": 334,
+   "wt_bl_max_median": 601.0,
+   "wt_bl_max_min": 547.0,
+   "wt_bl_max_max": 640.0,
+   "wt_bl_max_n": 46
+  },
+  {
+   "class_key": "piext_nobt",
+   "class_label": "pi-Extended luciferins in which the benzothiazole is absent",
+   "n_compounds": 29,
+   "n_measurements": 317,
+   "wt_bl_max_median": 675.0,
+   "wt_bl_max_min": 530.0,
+   "wt_bl_max_max": 765.0,
+   "wt_bl_max_n": 47
+  },
+  {
+   "class_key": "ringsubst",
+   "class_label": "Ring-substituted benzothiazole luciferins, 4'-, 5'-, 7'-",
+   "n_compounds": 25,
+   "n_measurements": 166,
+   "wt_bl_max_median": 610.0,
+   "wt_bl_max_min": 556.0,
+   "wt_bl_max_max": 622.0,
+   "wt_bl_max_n": 19
+  },
+  {
+   "class_key": "corex",
+   "class_label": "Heterocycle-exchanged core luciferins",
+   "n_compounds": 24,
+   "n_measurements": 161,
+   "wt_bl_max_median": 556.0,
+   "wt_bl_max_min": 500.0,
+   "wt_bl_max_max": 614.0,
+   "wt_bl_max_n": 26
+  },
+  {
+   "class_key": "sulfonamide",
+   "class_label": "6'-Sulfonamidyl luciferins",
+   "n_compounds": 16,
+   "n_measurements": 114,
+   "wt_bl_max_median": 555.0,
+   "wt_bl_max_min": 547.0,
+   "wt_bl_max_max": 642.0,
+   "wt_bl_max_n": 10
+  },
+  {
+   "class_key": "thiazoline",
+   "class_label": "Thiazoline-ring-modified and truncated luciferins",
+   "n_compounds": 14,
+   "n_measurements": 53,
+   "wt_bl_max_median": 573.5,
+   "wt_bl_max_min": 547.0,
+   "wt_bl_max_max": 600.0,
+   "wt_bl_max_n": 4
+  },
+  {
+   "class_key": "cycluc",
+   "class_label": "Conformationally restricted ring-fused aminoluciferins, the CycLuc series",
+   "n_compounds": 12,
+   "n_measurements": 166,
+   "wt_bl_max_median": 607.0,
+   "wt_bl_max_min": 598.0,
+   "wt_bl_max_max": 642.0,
+   "wt_bl_max_n": 19
+  },
+  {
+   "class_key": "sixprime",
+   "class_label": "Other 6'-heteroatom-substituted luciferins",
+   "n_compounds": 11,
+   "n_measurements": 40,
+   "wt_bl_max_median": 599.0,
+   "wt_bl_max_min": 599.0,
+   "wt_bl_max_max": 599.0,
+   "wt_bl_max_n": 2
+  },
+  {
+   "class_key": "piext_bt",
+   "class_label": "pi-Extended luciferins retaining the benzothiazole",
+   "n_compounds": 11,
+   "n_measurements": 143,
+   "wt_bl_max_median": 642.0,
+   "wt_bl_max_min": 560.0,
+   "wt_bl_max_max": 800.0,
+   "wt_bl_max_n": 10
+  },
+  {
+   "class_key": "fused",
+   "class_label": "Ring-fused, angularly extended luciferins",
+   "n_compounds": 8,
+   "n_measurements": 166,
+   "wt_bl_max_median": 636.0,
+   "wt_bl_max_min": 623.0,
+   "wt_bl_max_max": 715.0,
+   "wt_bl_max_n": 7
+  },
+  {
+   "class_key": "appendix",
+   "class_label": "Mechanistic probes and non-substrate analogues",
+   "n_compounds": 5,
+   "n_measurements": 22,
+   "wt_bl_max_median": 560.0,
+   "wt_bl_max_min": 547.0,
+   "wt_bl_max_max": 568.0,
+   "wt_bl_max_n": 3
+  },
+  {
+   "class_key": "coumarin",
+   "class_label": "Coumarin-based luciferins, the CouLuc series",
+   "n_compounds": 4,
+   "n_measurements": 84,
+   "wt_bl_max_median": 622.5,
+   "wt_bl_max_min": 597.0,
+   "wt_bl_max_max": 730.0,
+   "wt_bl_max_n": 4
+  },
+  {
+   "class_key": "minimal",
+   "class_label": "Minimal aryl-thiazoline luciferin analogues",
+   "n_compounds": 3,
+   "n_measurements": 8,
+   "wt_bl_max_median": 442.5,
+   "wt_bl_max_min": 440.0,
+   "wt_bl_max_max": 445.0,
+   "wt_bl_max_n": 2
+  },
+  {
+   "class_key": "natural",
+   "class_label": "Natural luciferin and its stereoisomers",
+   "n_compounds": 2,
+   "n_measurements": 329,
+   "wt_bl_max_median": 560.0,
+   "wt_bl_max_min": 551.0,
+   "wt_bl_max_max": 625.0,
+   "wt_bl_max_n": 59
+  }
+ ],
+ "most_studied": [
+  {
+   "compound_id": "NAT01",
+   "name": "D-Luciferin",
+   "class_key": "natural",
+   "n_measurements": 324,
+   "n_references": 55,
+   "n_enzymes": 128
+  },
+  {
+   "compound_id": "PN08",
+   "name": "AkaLumine hydrochloride",
+   "class_key": "piext_nobt",
+   "n_measurements": 117,
+   "n_references": 19,
+   "n_enzymes": 49
+  },
+  {
+   "compound_id": "AM21",
+   "name": "Aminoluciferin",
+   "class_key": "amino",
+   "n_measurements": 115,
+   "n_references": 15,
+   "n_enzymes": 46
+  },
+  {
+   "compound_id": "PB04",
+   "name": "Infraluciferin",
+   "class_key": "piext_bt",
+   "n_measurements": 78,
+   "n_references": 8,
+   "n_enzymes": 46
+  },
+  {
+   "compound_id": "CY01",
+   "name": "CycLuc1",
+   "class_key": "cycluc",
+   "n_measurements": 77,
+   "n_references": 11,
+   "n_enzymes": 45
+  },
+  {
+   "compound_id": "FU05",
+   "name": "NH2-NpLH2",
+   "class_key": "fused",
+   "n_measurements": 48,
+   "n_references": 3,
+   "n_enzymes": 26
+  },
+  {
+   "compound_id": "AM19",
+   "name": "6'-Dimethylaminoluciferin",
+   "class_key": "amino",
+   "n_measurements": 42,
+   "n_references": 5,
+   "n_enzymes": 11
+  },
+  {
+   "compound_id": "AM20",
+   "name": "6'-Methylaminoluciferin",
+   "class_key": "amino",
+   "n_measurements": 40,
+   "n_references": 4,
+   "n_enzymes": 12
+  },
+  {
+   "compound_id": "CY05",
+   "name": "CycLuc2",
+   "class_key": "cycluc",
+   "n_measurements": 38,
+   "n_references": 5,
+   "n_enzymes": 18
+  },
+  {
+   "compound_id": "RS04",
+   "name": "4'-BrLuc",
+   "class_key": "ringsubst",
+   "n_measurements": 32,
+   "n_references": 2,
+   "n_enzymes": 15
+  }
+ ],
+ "pareto_front_redshift_vs_output": [
+  {
+   "compound_id": "PN27",
+   "name": "Saito 2019 analogue 1b (3-pyridyl AkaLumine analogue)",
+   "class_key": "piext_nobt",
+   "wt_bl_max_median": 640.0,
+   "output_median_vs_dluc": 135.0
+  },
+  {
+   "compound_id": "CY02",
+   "name": "CycLuc10",
+   "class_key": "cycluc",
+   "wt_bl_max_median": 642.0,
+   "output_median_vs_dluc": 13.9
+  },
+  {
+   "compound_id": "PN08",
+   "name": "AkaLumine hydrochloride",
+   "class_key": "piext_nobt",
+   "wt_bl_max_median": 675.0,
+   "output_median_vs_dluc": 10.0
+  },
+  {
+   "compound_id": "PB05",
+   "name": "Kitada 2020 analogue 3",
+   "class_key": "piext_bt",
+   "wt_bl_max_median": 705.0,
+   "output_median_vs_dluc": 1.3
+  },
+  {
+   "compound_id": "PB01",
+   "name": "Diene-linked infraluciferin analogue",
+   "class_key": "piext_bt",
+   "wt_bl_max_median": 800.0,
+   "output_median_vs_dluc": 0.0
+  }
+ ]
+}

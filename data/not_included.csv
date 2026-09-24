@@ -1,0 +1,20 @@
+name,reason,note
+"2,5-Dimethylbenzothiazole / 2-Methylbenzothiazole (pair)","combined record for two benzothiazole fragments, no structure assigned",
+2-Cyano-4-hydroxybenzothiazole,"nitrile precursor, not a luciferin",
+2-Cyano-5-methoxybenzothiazole,"nitrile precursor, not a luciferin",
+2-Cyano-6-chlorobenzothiazole,"nitrile precursor, not a luciferin",
+2-Cyano-6-hydroxybenzothiazole,"nitrile precursor, not a luciferin",
+2-Cyano-6-methoxybenzothiazole,"nitrile precursor, not a luciferin",
+"5,5-Dimethyl-6'-aminooxyluciferin","oxyluciferin emitter model, outside the agreed substrate-analogue scope","Insoluble and unstable in water, so no aqueous data. Strong fluorescence solvatochromism (e.g. 494 nm in p-xylene to 607 nm in methanol for 3a). Its fluorescence in 2-propanol (593 nm) matches the bioluminescence maximum of aminoluciferin with Ppy luciferase (595 nm)."
+"5,5-Dimethyl-6'-dimethylaminooxyluciferin","oxyluciferin emitter model, outside the agreed substrate-analogue scope","Insoluble and unstable in water, so no aqueous data. Strong fluorescence solvatochromism (e.g. 494 nm in p-xylene to 607 nm in methanol for 3a). Its fluorescence in acetonitrile (621 nm) matches the bioluminescence maximum of 6'-dimethylaminoluciferin (620 nm). These matches are the basis of the Hirano/Maki 'use the luciferin's own fluorescence to predict lambda_BL' rule that underpins the design"
+"5,5-Dimethyl-6'-methylaminooxyluciferin","oxyluciferin emitter model, outside the agreed substrate-analogue scope","Insoluble and unstable in water, so no aqueous data. Strong fluorescence solvatochromism (e.g. 494 nm in p-xylene to 607 nm in methanol for 3a). Its fluorescence in 2-propanol (604 nm) matches the bioluminescence maximum of 6'-methylaminoluciferin (610 nm)."
+6-Hydroxybenzothiazole,"benzothiazole fragment used as a binding probe, not a luciferin",
+"8-Hydroxybenzo[4,5]imidazo[1,2-a]pyridine-3-carbonitrile (Anderson 2019 compound 20)","nitrile precursor, not a luciferin",
+Benzimidazole,"bare heterocycle used by Denburg as a binding-site probe, not a luciferin",
+Benzothiazole,"benzothiazole fragment used as a binding probe, not a luciferin",
+Benzoxazole,"bare heterocycle used by Denburg as a binding-site probe, not a luciferin",
+D-Naphthylluciferin-AMP and D-quinolylluciferin-AMP (adenylates),"combined record for two adenylates, no structure assigned",
+Indene,"bare heterocycle used by Denburg as a binding-site probe, not a luciferin",
+Indole,"bare heterocycle used by Denburg as a binding-site probe, not a luciferin",
+Miura 2013 comparison compound B,structure not established from the primary literature,"Included because its BL/CL pair (655/590 nm, gap 65 nm) anchors the argument about the anomalous 175 nm gap of the biphenyl analogue. FWHM of its BL band ca. 100 nm. Its identity among the Iwano2013 compounds is not stated in Miura2013 and has deliberately not been guessed."
+Thianaphthene,"bare heterocycle used by Denburg as a binding-site probe, not a luciferin",

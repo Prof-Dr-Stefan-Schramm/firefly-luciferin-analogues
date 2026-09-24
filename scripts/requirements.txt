@@ -1,0 +1,6 @@
+# Python packages for the scripts in this repository.
+# reproduce_statistics.py needs only the standard library.
+# The exports and structure files were built with:
+rdkit>=2023.9
+openpyxl>=3.1
+pandas>=2.0        # optional, for the pandas examples in the README

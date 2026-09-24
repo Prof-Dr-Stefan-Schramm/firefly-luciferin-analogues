@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Firefly luciferin analogues: a compiled dataset of optical, bioluminescence and kinetic properties"
+abstract: >-
+  A curated, machine-readable compilation of the optical, bioluminescence and
+  kinetic properties of 195 synthetic firefly D-luciferin analogues, drawn from
+  the primary literature. It holds 2103 individual reported values across 77
+  sources, each with the luciferase, the assay conditions, the comparison basis
+  and the verified DOI, together with structures (SMILES, InChI, InChIKey, SDF)
+  and the scripts that reproduce the accompanying analysis. Compiled as the
+  quantitative basis for a chapter on the structural diversity of synthetic
+  firefly luciferins.
+type: dataset
+authors:
+  - family-names: Schramm
+    given-names: Stefan
+    affiliation: "Hochschule für Technik und Wirtschaft Dresden (HTW Dresden)"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # <-- add your ORCID
+keywords:
+  - bioluminescence
+  - firefly luciferin
+  - luciferin analogues
+  - luciferase
+  - emission maximum
+  - near-infrared imaging
+  - structure-property relationships
+  - chemiluminescence
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-09-24"
+# doi: "10.5281/zenodo.XXXXXXX"   # <-- add the Zenodo concept DOI after the first release
