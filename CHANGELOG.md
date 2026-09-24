@@ -17,7 +17,8 @@ corrections that do not add records.
 
 First public release.
 
-- Archived on Zenodo: version DOI https://doi.org/10.5281/zenodo.22933437; concept DOI https://doi.org/10.5281/zenodo.22933436
+- Archived on Zenodo as https://doi.org/10.5281/zenodo.22933437; withdrawn
+  and superseded by 1.0.1.
 - 195 compounds in scope; 19 out-of-scope compounds listed with reasons.
 - 2103 measurement rows across 77 sources; every DOI verified against Crossref.
 - 193 structures (SMILES, InChI, InChIKey) exported to SDF.
