@@ -22,5 +22,12 @@
     "chemiluminescence"
   ],
   "version": "1.0.0",
-  "language": "eng"
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "relation": "isVersionOf",
+      "identifier": "10.5281/zenodo.22933436",
+      "scheme": "doi"
+    }
+  ]
 }
