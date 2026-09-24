@@ -9,7 +9,7 @@ in the cited source*; it does not mean the property was never measured anywhere.
 
 ---
 
-## compounds.csv — one row per compound (195 rows)
+## compounds.csv, one row per compound (195 rows)
 
 | column | meaning |
 |---|---|
@@ -35,7 +35,7 @@ literature) and so are absent from `structures.sdf`.
 
 ---
 
-## measurements.csv — one row per reported value (2103 rows) — the main table
+## measurements.csv, one row per reported value (2103 rows), the main table
 
 ### Identity of the value
 
@@ -66,8 +66,7 @@ literature) and so are absent from `structures.sdf`.
 | `emission_band` | For multi-band emitters: `principal band`, `secondary or shoulder band`, `secondary, blue-shifted band`. |
 | `bimodal` | `TRUE` if the emission spectrum for this value is bimodal. |
 
-> To compare light outputs, first filter to **one** consistent combination —
-> for example `property = "relative light output"`, `setting = "in vitro"`,
+> To compare light outputs, first filter to **one** consistent combination, > for example `property = "relative light output"`, `setting = "in vitro"`,
 > `direction = "brighter_is_larger"`, `denominator` starting `D-luciferin`.
 > Comparing across different denominators or settings is meaningless.
 
@@ -79,7 +78,7 @@ literature) and so are absent from `structures.sdf`.
 | `enzyme_class` | A coarse bucket for filtering: `wild-type firefly luciferase`, `engineered firefly luciferase`, `click-beetle luciferase`, `other`. This is a heuristic classification of the free-text `enzyme` string, provided for convenience; for careful work read `enzyme`. |
 | `ph_regime` | `physiological or basic`, `acidic`, `pH series or pH independent`, or `unstated`. The bioluminescence maximum shifts red as pH falls, so this matters when comparing emission maxima. |
 | `conditions` | Assay conditions in brief (buffer, concentrations, instrument), paraphrased from the source. |
-| `basis` | What the value is the value *of* — the exact quantity and how it was obtained (e.g. "peak of the normalised BL spectrum"; "integrated photon flux over 2 min, PMT-corrected"). |
+| `basis` | What the value is the value *of*: the exact quantity and how it was obtained (e.g. "peak of the normalised BL spectrum"; "integrated photon flux over 2 min, PMT-corrected"). |
 
 ### Provenance
 
@@ -95,7 +94,7 @@ literature) and so are absent from `structures.sdf`.
 
 ---
 
-## references.csv — the sources (77 rows)
+## references.csv, the sources (77 rows)
 
 | column | meaning |
 |---|---|
@@ -105,7 +104,7 @@ literature) and so are absent from `structures.sdf`.
 | `doi_verified_via_crossref` | `TRUE` if the DOI was checked against the Crossref record. |
 | `used_for_a_value` | `TRUE` if at least one value in `measurements.csv` comes from this source; `FALSE` for sources cited in the chapter but contributing no number to the dataset. |
 
-## not_included.csv — out-of-scope compounds (19 rows)
+## not_included.csv, out-of-scope compounds (19 rows)
 
 Compounds found in the literature but deliberately excluded (heterocyclic
 fragments and binding probes, nitrile precursors, oxyluciferin emitter models,

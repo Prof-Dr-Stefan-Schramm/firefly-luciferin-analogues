@@ -1,4 +1,4 @@
-# Firefly luciferin analogues — a compiled dataset
+# Firefly luciferin analogues, a compiled dataset
 
 A curated, machine-readable compilation of the **optical, bioluminescence and
 kinetic properties of 195 synthetic firefly D-luciferin analogues**, drawn from
@@ -68,7 +68,7 @@ bl = m[(m.property == "bioluminescence emission maximum") &
 print(bl.groupby("structural_class").value_num.median().sort_values())
 ```
 
-## Reading the data correctly — three things that matter
+## Reading the data correctly, three things that matter
 
 The compilation is built to prevent the usual mistakes made with luciferin data.
 Please keep these in mind:
@@ -105,13 +105,12 @@ values were extracted, verified and normalised.
 
 ## Licence
 
-- **Data** (`data/`, and the compiled content of the figures): **CC BY 4.0** —
-  reuse freely, with attribution. See `LICENSE`.
+- **Data** (`data/`, and the compiled content of the figures): **CC BY 4.0**, reuse freely, with attribution. See `LICENSE`.
 - **Scripts** (`scripts/`): **MIT**. See `LICENSE-CODE`.
 
 ## Contact
 
-Stefan Schramm, HTW Dresden — stefan.schramm@htw-dresden.de
+Stefan Schramm, HTW Dresden (stefan.schramm@htw-dresden.de)
 
 Corrections and additions are welcome as GitHub issues or pull requests. Please
 include the DOI and the table or figure your value comes from.

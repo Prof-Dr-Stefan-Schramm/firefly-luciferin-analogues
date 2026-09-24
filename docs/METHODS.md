@@ -1,4 +1,4 @@
-# Methods — how this dataset was compiled
+# Methods, how this dataset was compiled
 
 This note records how the compilation was built, checked and normalised, so the
 numbers can be judged and reused with confidence.
@@ -6,7 +6,7 @@ numbers can be judged and reused with confidence.
 ## Scope
 
 The dataset covers **synthetic analogues of the firefly substrate D-luciferin**
-— compounds designed to be turned over by firefly (or beetle) luciferase, or to
+- compounds designed to be turned over by firefly (or beetle) luciferase, or to
 probe that reaction. It records their **optical properties** (absorption,
 fluorescence), their **bioluminescence** (emission maximum, light output,
 absolute quantum yield, spectral distribution), and the **enzyme kinetics** of
@@ -20,7 +20,7 @@ not be established from the primary literature.
 
 ## Sources
 
-Values were compiled from the primary literature — 77 sources, listed in
+Values were compiled from the primary literature, 77 sources, listed in
 `references.csv` / `references.bib`. Every DOI was verified against the Crossref
 record (`doi_verified_via_crossref`). A handful of sources are cited in the
 chapter for context but contribute no number to the dataset; they are marked
@@ -44,7 +44,7 @@ A large curation and audit pass reconciled duplicate records, split values that
 had been merged, and corrected mis-attributions; values first surfaced or
 recovered in that pass are marked `new` in `verification_status`.
 
-## Normalisation — the points that matter scientifically
+## Normalisation, the points that matter scientifically
 
 **Emission maxima are substrate + enzyme + pH.** A bioluminescence emission
 maximum is not a property of the substrate alone. Every emission value carries
@@ -56,8 +56,8 @@ averaged.
 **Relative light output is not one quantity.** Reports use peak intensity,
 integrated photon flux, specific activity, or in-vivo signal, against different
 references and in different settings. Rather than force these onto one scale,
-each value keeps four fields that make its meaning explicit — `direction`,
-`denominator`, `setting`, `basis` — and the polarity was normalised so that
+each value keeps four fields that make its meaning explicit, `direction`,
+`denominator`, `setting`, `basis`. The polarity was normalised so that
 "weaker than", "N-fold fewer", "% of" and specific-activity reports are all
 readable consistently through `direction`. Comparisons must be made within one
 consistent combination of these fields.
@@ -96,7 +96,7 @@ not the sources' wording, figures or tables. For those, follow the DOI.
 ## Reproducing the analysis
 
 `scripts/reproduce_statistics.py` reads the released data and recomputes the
-headline statistics reported in the chapter — the compound and measurement
+headline statistics reported in the chapter: the compound and measurement
 counts, the per-class table, the most-studied compounds, and the Pareto front of
 emission red-shift against in-vitro light output. It writes
 `data/analysis_summary.json`. It runs on the published files alone; nothing in

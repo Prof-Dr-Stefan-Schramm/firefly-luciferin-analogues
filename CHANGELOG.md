@@ -6,7 +6,7 @@ changes when the schema or the meaning of existing fields changes, the minor
 number when compounds, values or sources are added, and the patch number for
 corrections that do not add records.
 
-## [1.0.0] — 2026-09-24
+## [1.0.0] (2026-09-24)
 
 First public release.
 

@@ -15,7 +15,7 @@ authors:
   - family-names: Schramm
     given-names: Stefan
     affiliation: "Hochschule für Technik und Wirtschaft Dresden (HTW Dresden)"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # <-- add your ORCID
+    orcid: "https://orcid.org/0000-0002-6109-0893"
 keywords:
   - bioluminescence
   - firefly luciferin
