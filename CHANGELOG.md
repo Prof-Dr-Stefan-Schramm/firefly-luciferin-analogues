@@ -6,10 +6,10 @@ changes when the schema or the meaning of existing fields changes, the minor
 number when compounds, values or sources are added, and the patch number for
 corrections that do not add records.
 
-## [Unreleased]
+## [1.0.1] (2026-09-24)
 
-- Removed the `figures/` folder. The analysis figures appear in the book
-  chapter and are not part of the dataset. Data files are unchanged.
+- The analysis figures are no longer distributed with the dataset; they appear
+  in the book chapter. Data files are unchanged.
 - README: noted the use of AI assistance in compiling the dataset.
 
 ## [1.0.0] (2026-09-24)
