@@ -105,6 +105,10 @@ values were extracted, verified and normalised.
 - **Verbatim text from the source papers is not reproduced here.** The dataset
   contains facts (numbers, identifiers, paraphrased conditions) and pointers to
   the sources, not their wording, figures or tables. For those, follow the DOI.
+- Use of AI: the large language model Claude Opus 5 (Anthropic) assisted in
+  mining the source papers, extracting and compiling the values, and running the
+  analysis. The author directed the work, checked the results and takes
+  responsibility for the content.
 
 ## Licence
 
