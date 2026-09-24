@@ -44,7 +44,6 @@ docs/
 scripts/
   reproduce_statistics.py            recomputes the chapter's headline numbers
   requirements.txt                   Python packages the scripts need
-figures/                             the figures built from this dataset (if included)
 CHANGELOG.md
 CITATION.cff  .zenodo.json
 LICENSE (data, CC BY 4.0)   LICENSE-CODE (scripts, MIT)
@@ -111,7 +110,7 @@ values were extracted, verified and normalised.
 
 ## Licence
 
-- **Data** (`data/`, and the compiled content of the figures): **CC BY 4.0**, reuse freely, with attribution. See `LICENSE`.
+- **Data** (`data/`): **CC BY 4.0**, reuse freely, with attribution. See `LICENSE`.
 - **Scripts** (`scripts/`): **MIT**. See `LICENSE-CODE`.
 
 ## Contact

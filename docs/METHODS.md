@@ -103,6 +103,6 @@ emission red-shift against in-vitro light output. It writes
 it needs the internal working record.
 
 The wild-type/engineered split used in some of those statistics is derived here
-from the coarse `enzyme_class` heuristic, so a few enzyme-conditioned figures are
-approximate; the chapter's exact figures use the fully canonicalised enzyme
+from the coarse `enzyme_class` heuristic, so a few enzyme-conditioned numbers are
+approximate; the chapter's exact numbers use the fully canonicalised enzyme
 assignments in `enzyme`.
